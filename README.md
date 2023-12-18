@@ -136,6 +136,7 @@ maintained by [Parity Technologies](https://www.parity.io/). Source code availab
 - [Uptest Runtime upgrade tool](https://github.com/uptest-sc/uptest) - Uptest command line client and libuptest Rust library are two tools used for debugging storage changes and runtime upgrades.
 - [sc-simnode](https://simnode.polytope.technology/) - Fork your substrate live chain state and run all kinds of simulation tests on the runtime.
 - [Trappist](https://github.com/paritytech/trappist) - Trappist is a web3 developer playground for experimenting with cross-chain applications and services built on the technologies spearheaded by the Polkadot Network
+- [Polkadot Cloud](https://polkadot.cloud/) - Polkadot Cloud is a library and platform for developing and publishing assets for Polkadot dApps.
 
 ## Products and Services
 
