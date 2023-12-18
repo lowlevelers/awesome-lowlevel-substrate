@@ -1,85 +1,11 @@
-# Awesome Substrate [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+# Awesome LowLevel Substrate [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-> An awesome list is a list of awesome things curated by the Substrate community.
+> This repository is a forked version of the original [Awesome Substrate](https://github.com/substrate-developer-hub/awesome-substrate) which mainly focuses on low-level developer ecosystem resources. Please support the original repository.
 
 Substrate is a framework for building upgradable, modular and efficient
 blockchains. Substrate is an open-source library of [Rust](https://www.rust-lang.org/) code that is
 maintained by [Parity Technologies](https://www.parity.io/). Source code available on
 [GitHub](https://github.com/paritytech/substrate).
-
-## Contents
-
-- [Resources](#resources)
-- [Support](#support)
-- [Social](#social)
-- [Events](#events)
-- [Blogs](#blogs)
-- [Videos](#videos)
-- [Templates](#templates)
-- [FRAME Pallets](#frame-pallets)
-- [Framework Extensions](#framework-extensions)
-- [Client Libraries](#client-libraries)
-- [Mobile](#mobile)
-- [Tools](#tools)
-- [Products and Services](#products-and-services)
-- [Alternative Implementations](#alternative-implementations)
-- [SCALE Codec](#scale-codec)
-
-## Resources
-
-- [DotJobs](https://dotjobs.net/) - A job board for the Substrate and Polkadot ecosystem projects, maintained by [Stateless.Money](https://stateless.money/).
-- [Developer Hub GitHub](https://github.com/substrate-developer-hub/) - Substrate Developer Hub repositories.
-- [Ecosystem Projects](https://substrate.io/ecosystem/projects/) - Projects and teams building with Substrate.
-- [Polkadot Stack](https://github.com/w3f/Grants-Program/blob/master/docs/polkadot_stack.md) - An `awesome list` maintained by our friends at [Web3 Foundation](https://web3.foundation/).
-- [Official Homepage](https://substrate.io/) - Vision, ecosystem, opportunities, and much more.
-  - [Docs](https://docs.substrate.io/) - Developer documentation.
-  - [Tutorials](https://docs.substrate.io/tutorials) - Guided exercises to get you started.
-  - [How-to guides](https://docs.substrate.io/how-to-guides) - Workflows outlined to achieve a specific goal.
-  - [Reference Docs](https://docs.substrate.io/rustdocs) - Versioned API documentation.
-- Technical Papers
-  - [Polkadot Lightpaper](https://polkadot.network/Polkadot-lightpaper.pdf)
-  - [Polkadot: Vision for a heterogeneous multi-chain framework](https://github.com/polkadot-io/polkadotpaper/raw/master/PolkaDotPaper.pdf)
-  - [Overview of Polkadot and its Design Considerations](https://arxiv.org/abs/2005.13456.pdf)
-    - [Chinese Translation](https://github.com/AmadeusGB/Overview-of-Polkadot) (by community)
-
-## Support
-
-- [Builders Program](https://substrate.io/ecosystem/substrate-builders-program/) - White-glove solutions and dedicated support team for visionary teams using Substrate.
-- [Stack Exchange](https://substrate.stackexchange.com/) - The best place for all technical questions.
-- [Web3 Foundation Grants](https://web3.foundation/grants) - Funding for ecosystem development.
-- [Polkadot Treasury](https://wiki.polkadot.network/docs/learn-treasury#creating-a-treasury-proposal) - The Treasury funds are allocated through the voting on spending proposal.
-
-## Social
-
-- [Substrate Developers Chat (Telegram)](https://t.me/substratedevs) - Chat with other Substrate developers, also bridged to [matrix](https://matrix.to/#/#substratedevs:matrix.org).
-- [Twitter](https://twitter.com/substrate_io) - Follow us to stay up-to-date.
-- [Polkaverse](https://polkaverse.com) - A decentralized news-feed style social platform for the Polkadot community to discuss, share knowledge, post ecosystem updates and interact with posts. Built on top of [Subsocial](https://subsocial.network).
-
-## Events
-
-- [Sub0 Developer Conference](https://sub0.parity.io/) - Semiannual, online and in-person for all
-  things Substrate.
-- [Substrate Seminar](https://substrate.io/ecosystem/resources/seminar/) - Bi-weekly
-  collaborative learning sessions.
-
-## Blogs
-
-- [DotLeap](https://dotleap.com/) - Polkadot and Substrate Community blog and newsletter.
-- [Official](https://www.parity.io/blog/tag/parity-substrate) - Published by Parity.
-
-## Videos
-
-- [Parity YouTube](https://www.youtube.com/c/paritytech)
-  - [Substrate Seminar (YouTube Archive)](https://www.youtube.com/playlist?list=PLp0_ueXY_enXRfoaW7sTudeQH10yDvFOS)
-  - [Sub0 Conference Nov. 2022](https://youtube.com/playlist?list=PLOyWqupZ-WGvywLqJDsMIYdCn8QEa2ShQ)
-  - [Sub0 Conference Oct. 2020](https://www.youtube.com/playlist?list=PLp0_ueXY_enUZk1RuEAU9ly5h0wy5FuLs)
-  - [Sub0 Conference Dec. 2019](https://www.youtube.com/playlist?list=PLp0_ueXY_enWZ4UZE7rM0hdT8Z_ZTjU5V)
-  - [Sub0 Conference Apr. 2019](https://www.youtube.com/playlist?list=PLp0_ueXY_enWqrfP_vR4PLhzQj76fLT8y)
-- [Polkadot Network Technical Explainers](https://www.youtube.com/playlist?list=PLOyWqupZ-WGuAuS00rK-pebTMAOxW41W8)
-- [Substrate Seminar Twitch](https://www.twitch.tv/polkadotdev) - Biweekly stream hosted by Polkadot Developers Twitch.
-  - [Old Seminar Crowdcast](https://www.crowdcast.io/e/substrate-seminar-2/) - Seminar archive.
-  - [Older Seminar Crowdcast](https://www.crowdcast.io/e/substrate-seminar/) - Older still Seminar archive.
-- [Substrate: A Rustic Vision for Polkadot by Gavin Wood at Web3 Summit 2018](https://www.youtube.com/watch?v=0IoUZdDi5Is)
 
 ## Templates
 
@@ -207,7 +133,8 @@ maintained by [Parity Technologies](https://www.parity.io/). Source code availab
 - [Polkaholic.io](https://polkaholic.io) - Multi-chain block explorer with API and DeFi support across 40+ parachains.
 - [SubID](https://github.com/dappforce/subid) - An advanced cross-chain portfolio management tool for the Polkadot ecosystem, allowing any user to see their balances across chains; view their crowdloan history; view their NFTs across Polkadot ecosystem chains; claim their vested tokens and perform cross-chain transfers.
 - [Subsocial SDK Playground](https://play.subsocial.network) - Subsocial JS SDK Playground allows you to fetch spaces, send transactions on blockchain and test the SDK code snippets on the go without the need to download or setup anything locally.
-- [Uptest Runtime upgrade tool](https://github.com/uptest-sc/uptest) - Uptest command line client and libuptest Rust library are two tools used for debugging storage changes and runtime upgrades.   
+- [Uptest Runtime upgrade tool](https://github.com/uptest-sc/uptest) - Uptest command line client and libuptest Rust library are two tools used for debugging storage changes and runtime upgrades.
+- [sc-simnode](https://simnode.polytope.technology/) - Fork your substrate live chain state and run all kinds of simulation tests on the runtime.   
 
 ## Products and Services
 
@@ -220,22 +147,3 @@ maintained by [Parity Technologies](https://www.parity.io/). Source code availab
 - [Gossamer](https://github.com/ChainSafe/gossamer) - A Polkadot client implemented in Go; from [ChainSafe](https://chainsafe.io/).
 - [Kagome](https://kagome.readthedocs.io/en/latest/) - A C++17 implementation of the Polkadot client; from [Soramitsu](http://www.soramitsu.co.jp/).
 - [LimeChain AssemblyScript Runtime](https://github.com/LimeChain/as-substrate-runtime) - An account-based Substrate proof-of-concept runtime written in AssemblyScript; from [LimeChain](https://limechain.tech/).
-
-## SCALE Codec
-
-- [AssemblyScript](https://github.com/LimeChain/as-scale-codec) - Maintained by LimeChain.
-- [C](https://github.com/MatthewDarnell/cScale) - Maintained by Matthew Darnell.
-- [C++](https://github.com/soramitsu/scale-codec-cpp) - Maintained by Soramitsu.
-- [Codec Definition](https://docs.substrate.io/v3/advanced/scale-codec/) - Official codec documentation.
-- [Go](https://github.com/itering/scale.go) - Maintained by [Itering](https://www.itering.com/).
-- [Haskell](https://github.com/airalab/hs-web3/tree/master/src/Codec) - Maintained by [Robonomics Network](https://robonomics.network/).
-- [Java](https://github.com/emeraldpay/polkaj/tree/master/polkaj-scale) - Maintained by [Emerald](https://emerald.cash/).
-- [Parity SCALE Codec](https://github.com/paritytech/parity-scale-codec) - Reference implementation written in Rust.
-- [Python](https://github.com/polkascan/py-scale-codec) - Maintained by Polkascan Foundation.
-- [Ruby](https://github.com/itering/scale.rb) - Maintained by Itering.
-- [Scales](https://github.com/virto-network/scales) - Serializing SCALE using type information from a type registry.
-- JavaScript / TypeScript implementations:
-  - [paritytech/parity-scale-codec-ts](https://github.com/paritytech/parity-scale-codec-ts) - Maintained by Parity Technologies.
-  - [polkadot-js/api](https://github.com/polkadot-js/api/tree/master/packages/types) - Maintained by Polkadot-JS.
-  - [scale-ts](https://github.com/unstoppablejs/unstoppablejs/tree/main/packages/scale-ts#scale-ts) - Maintained by Josep M Sobrepere.
-  - [soramitsu/scale-codec-js-library](https://github.com/soramitsu/scale-codec-js-library) - Maintained by Soramitsu.
